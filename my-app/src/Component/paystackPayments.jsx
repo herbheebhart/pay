@@ -21,12 +21,6 @@ const PaystackPayments = () => {
     networking:75000,
     userinterfaceanduserexperience:75000,
   };
-  // const coursePackages = {
-  //   beginner: 75000,
-  //   intermediate: 75000,
-  //   advanced: 75000,
-  // };
-
   const baseAmount = coursePackages[selectedCourse];
   const selectedAmount = paymentMode === 'full' ? baseAmount : baseAmount / 2;
 
